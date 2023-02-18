@@ -8,6 +8,15 @@
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.scss';
 
+//les Js du Theme KindHerat
+import './js/bootstrap.min';
+import './js/click-scroll';
+import './js/counter';
+import './js/custom';
+import './js/jquery.min';
+import './js/jquery.sticky';
+
+
 // or, specify which plugins you need:
 import { Tooltip, Toast, Popover } from 'bootstrap'
 
