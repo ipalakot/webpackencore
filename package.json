@@ -25,6 +25,7 @@
     },
     "dependencies": {
         "autoprefixer": "^10.4.13",
+        "popper.js": "^1.16.1",
         "postcss-loader": "^7.0.2"
     }
 }
