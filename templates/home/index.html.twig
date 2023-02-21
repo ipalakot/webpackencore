@@ -2,9 +2,32 @@
 
 {% block title %} Accueil | {{ parent() }}{% endblock %}
 
-<body id="section_1">
+
 
     {% block body %}
+
+     {% include("base/header.html.twig") %}
+     {% include("base/nav.html.twig") %}
+
+     <main>
+        {% include("base/hero-section.html.twig") %}
+        {% include("base/section-padding-welcom.html.twig") %}
+        {% include("base/section-padding2.html.twig") %}
+        {% include("base/about-section.html.twig") %}
+        {% include("base/cta-section-impact.html.twig") %}
+        {% include("base/section-padding3-our-causes.html.twig") %}
+        {% include("base/volunteer-section.html.twig") %}  
+        {% include("base/news-section.html.twig") %}
+        {% include("base/testimonial-section.html.twig") %}
+        {% include("base/contact-section.html.twig") %}
+        {% include("base/site-footer.html.twig") %}
+        
+
+
+     </main>
+
+
+
 
     <main>
 
@@ -14,6 +37,3 @@
 
 
  {% endblock %}
-</body>
-
-</html>
