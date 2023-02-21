@@ -1,36 +1,10 @@
-<!doctype html>
-<html lang="en">
+{% extends 'base.html.twig' %}
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Kind Heart Charity - Free Bootstrap 5.2.2 CSS Template</title>
-
-    <!-- CSS FILES -->
-
-     {{ encore_entry_link_tags('app') }}
-
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
-
-    <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
-    <!--
-
-TemplateMo 581 Kind Heart Charity
-
-https://templatemo.com/tm-581-kind-heart-charity
-
--->
-
-</head>
+{% block title %} Accueil | {{ parent() }}{% endblock %}
 
 <body id="section_1">
+
+    {% block body %}
 
     <header class="site-header">
         <div class="container">
@@ -1079,6 +1053,8 @@ https://templatemo.com/tm-581-kind-heart-charity
 
     
  {{ encore_entry_script_tags('app') }}
+
+ {% endblock %}
 </body>
 
 </html>
